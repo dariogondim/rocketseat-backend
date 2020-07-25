@@ -1,18 +1,30 @@
 {
-  "name": "backend",
+  "name": "rockeseat-backend",
   "version": "1.0.0",
-  "description": "backend do bootcamp",
+  "description": "backend do bootcamp nivel 1",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariogondim/rocketseat-backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "web",
+    "bootcamp",
+    "rocketseat"
+  ],
+  "author": "Dario Gondim",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
   "dependencies": {
     "uuidv4": "^6.2.0"
-  }
+  },
+  "homepage": "https://github.com/dariogondim/rocketseat-backend#readme"
 }
